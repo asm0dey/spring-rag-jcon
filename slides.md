@@ -2,7 +2,7 @@
 theme: the-unnamed
 # random image from a curated Unsplash collection by Anthony
 # like them? see https://unsplash.com/collections/94734566/slidev
-background: https://cover.sli.dev
+background: /skyline.png
 # some information about your slides (markdown enabled)
 title: "From ChatGPT User to RAG Implementer: A Developer's Journey"
 info: |
