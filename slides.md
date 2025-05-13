@@ -664,23 +664,15 @@ layout: center
 - You don't need to know how LLM works to use RAG
 
 ---
-layout: two-cols-header
+layout: two-cols
 ---
 
-# Questions?
 
-::left::
+# Blog
 
-<p><logos-bluesky /> asm0dey</p>
-<p><logos-twitter /> asm0di0</p>
-<p><logos-mastodon-icon /> @asm0dey@fosstodon.org</p>
-
-::right::
-
-Blog:
 <QRCode
-    :width="150"
-    :height="150"
+    :width="300"
+    :height="300"
     type="svg"
     data="https://bit.ly/48WTkL5"
     :margin="10"
@@ -688,15 +680,31 @@ Blog:
     :dotsOptions="{ type: 'extra-rounded', color: 'white' }"
 />
 
-Source code:
+::right::
+
+# Source code
+
 <QRCode
-    :width="150"
-    :height="150"
+    :width="300"
+    :height="300"
     type="svg"
     data="https://github.com/asm0dey/bellsoft-docs-bot"
     :margin="10"
     :imageOptions="{ margin: 10 }"
     :dotsOptions="{ type: 'extra-rounded', color: 'white' }"/>
+
+
+---
+layout: image-contain-right
+image: /slido.svg
+---
+
+# Questions?
+
+
+<p><logos-bluesky /> asm0dey</p>
+<p><logos-twitter /> asm0di0</p>
+<p><logos-mastodon-icon /> @asm0dey@fosstodon.org</p>
 
 ---
 layout: end
